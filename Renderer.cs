@@ -167,14 +167,12 @@ public class TestRenderSurface : RenderSurface {
       Console.ForegroundColor = col;
       Console.Write("0");
       if (x >= w) {
-        Console.BackgroundColor = (ConsoleColor)(-1);
-        Console.ForegroundColor = (ConsoleColor)(-1);
+        Console.ResetColor();
         Console.WriteLine();
         x = 0;
       }
     }
-    Console.BackgroundColor = (ConsoleColor)(-1);
-    Console.ForegroundColor = (ConsoleColor)(-1);
+    Console.ResetColor();
     Console.WriteLine();
   }
 }

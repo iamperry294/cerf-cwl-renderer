@@ -149,18 +149,33 @@ public class TestRenderSurface : RenderSurface {
   }
 
   public void Done() {
-    string toWrite = "";
+    int x = 0;
     for (int i = 0; i < colors.Length; i++) {
-      if (colors[i].r > 0) {
-        toWrite += "0";
-      } else {
-        toWrite += ".";
+      x++;
+      ConsoleColor col = ConsoleColor.Black;
+      Color c = colors[i];
+      if (c.r > 128) {
+        col = ConsoleColor.Red;
+      } else if (c.g > 128) {
+        col = ConsoleColor.Green;
+      } else if (c.b > 128) {
+        col = ConsoleColor.Blue;
+      } else if (c.r + c.g + c.b > 128 * 3) {
+        col = ConsoleColor.White;
       }
-      if (toWrite.Length >= w) {
-        Console.WriteLine(toWrite);
-        toWrite = "";
+      Console.BackgroundColor = col;
+      Console.ForegroundColor = col;
+      Console.Write("0");
+      if (x >= w) {
+        Console.BackgroundColor = (ConsoleColor)(-1);
+        Console.ForegroundColor = (ConsoleColor)(-1);
+        Console.WriteLine();
+        x = 0;
       }
     }
+    Console.BackgroundColor = (ConsoleColor)(-1);
+    Console.ForegroundColor = (ConsoleColor)(-1);
+    Console.WriteLine();
   }
 }
 

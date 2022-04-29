@@ -1,5 +1,3 @@
-//Poggers!!!s
-
 using System;
 
 public class View {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fJmO4L31c3IATfgkSAAPTcP0wvBNEEhnBIjsIhyEMDZbfRJDJxdkQTPgp749pBy9gy0Sl1Yy1WJrckbQNWD5pg==",
+  "dgSpecHash": "uFRkAgLoUOwyWyso4l5w6sQp/gndqZ8fwW/ziHT05ONde1QhDrainjy8UhZOcv66SOMe3u5jjEHmoLaqNdaVxg==",
   "success": true,
-  "projectFilePath": "/home/runner/cerf-cwl-renderer/main.csproj",
+  "projectFilePath": "/home/coder/project/cerf-cwl-renderer/main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

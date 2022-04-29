@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/cerf-cwl-renderer/main.csproj": {}
+    "/home/coder/project/cerf-cwl-renderer/main.csproj": {}
   },
   "projects": {
-    "/home/runner/cerf-cwl-renderer/main.csproj": {
+    "/home/coder/project/cerf-cwl-renderer/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/cerf-cwl-renderer/main.csproj",
+        "projectUniqueName": "/home/coder/project/cerf-cwl-renderer/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/cerf-cwl-renderer/main.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/cerf-cwl-renderer/obj/",
+        "projectPath": "/home/coder/project/cerf-cwl-renderer/main.csproj",
+        "packagesPath": "/home/coder/.nuget/packages/",
+        "outputPath": "/home/coder/project/cerf-cwl-renderer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "/home/coder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp5.0"
+          "netcoreapp6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "net6.0": {
+            "targetAlias": "netcoreapp6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "net6.0": {
+          "targetAlias": "netcoreapp6.0",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/nv6sla72qmb07nma9xrsjq74djggqr0g-dotnet-sdk-5.0.202/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

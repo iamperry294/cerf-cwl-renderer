@@ -1,3 +1,5 @@
+// Big ol script. Kappa
+
 using System;
 
 public class View {

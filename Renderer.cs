@@ -1,4 +1,4 @@
-// Big ol script. Kappa
+//Poggers!
 
 using System;
 

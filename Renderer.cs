@@ -156,11 +156,14 @@ public class TestRenderSurface : RenderSurface {
       Color c = colors[i];
       if (c.r > 128) {
         col = ConsoleColor.Red;
-      } else if (c.g > 128) {
+      } 
+      if (c.g > 128) {
         col = ConsoleColor.Green;
-      } else if (c.b > 128) {
+      } 
+      if (c.b > 128) {
         col = ConsoleColor.Blue;
-      } else if (c.r + c.g + c.b > 128 * 3) {
+      }
+      if (c.r + c.g + c.b > 128 * 3) {
         col = ConsoleColor.White;
       }
       Console.BackgroundColor = col;
